@@ -1,0 +1,35 @@
+{
+   "action": {
+      "default_icon": "public/icon.png",
+      "default_title": "UWS_C"
+   },
+   "background": {
+      "service_worker": "background.bundle.js",
+      "type": "module"
+   },
+   "default_locale": "en",
+   "description": "__MSG_extension_description__",
+   "icons": {
+      "128": "public/logo-128.png",
+      "16": "public/logo-16.png",
+      "256": "public/logo-256.png",
+      "32": "public/logo-32.png",
+      "48": "public/logo-48.png"
+   },
+   "key": "MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAg5hacR2lYghO6UNujg+0Rsg7NMBDCbsc316/veNnzuj7bVlawRk3xbVS0TOgB6D/qpngVdZf1G074exH26U+oqWPgeHxbnrT0Jy6QzImHoD1HTQImCuJEw0lDI4ZjpMg7SCFcmkUzIt6SziB/kIwRTZ2tpgzfcBKpx0sl8TcbPrBC1Hat8bEFUnjicBnL1dIGqGC1GnBxnoHzYtua2ah3f7thpLvGOuCh1cjzKRxGI5suhed910We3F3rp1USP3qncWnC+tAfop45P0pshQh4zMfzGvJu4gSFvholsfUpxNGOy6zg7S2R30nBBaBFyl70/TVYUoTmqoq3g8EMgU92wIDAQAB",
+   "manifest_version": 3,
+   "name": "__MSG_extension_name__",
+   "optional_host_permissions": [ "\u003Call_urls>" ],
+   "optional_permissions": [ "downloads", "clipboardWrite" ],
+   "permissions": [ "activeTab", "scripting", "storage", "sidePanel" ],
+   "side_panel": {
+      "default_path": "sidepanel.html"
+   },
+   "update_url": "https://clients2.google.com/service/update2/crx",
+   "version": "5.5.0",
+   "version_name": "2.0",
+   "web_accessible_resources": [ {
+      "matches": [ "\u003Call_urls>" ],
+      "resources": [ "public/*" ]
+   } ]
+}
